@@ -2,4 +2,4 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def home(request):
-    return HttpResponse('Hello Friends! This is my portfolio')
+    return render(request, 'index.html')
